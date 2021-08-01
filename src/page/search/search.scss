@@ -1,0 +1,44 @@
+.search {
+    height: 100%;
+
+    h3,
+    div {
+        text-align: left;
+    }
+
+    .search-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        .search-content {
+            position: absolute;
+            top: 42px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            .search-hot {
+                box-sizing: border-box;
+                padding: 20px 10px;
+
+                .search-hot-title {
+                    margin-bottom: 16px;
+                }
+
+                .search-hot-box {
+                    .search-hot-item {
+                        float: left;
+                        padding: 10px;
+                        border-radius: 20px;
+                        border: 1px solid #aaa;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.layout {
+    position: relative;
+    height: 100vh;
+
+    .layout-box {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: auto;
+    }
+
+    .layout-box:before {
+        content: '';
+        display: table;
+    }
+
+    .layout-main {
+        bottom: 60px;
+    }
+}

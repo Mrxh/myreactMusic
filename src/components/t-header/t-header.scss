@@ -1,0 +1,90 @@
+.tHeader {
+    width: 100vw;
+    box-sizing: border-box;
+    height: 40px;
+    background: #C20C0C;
+    padding: 0px 60px 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+    .tHeader-item {
+        width: 100%;
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        padding-top: 5px;
+    }
+
+    .txt-left {
+        width: 40px;
+        line-height: 40px;
+        text-align: left;
+        position: absolute;
+        left: 20px;
+        padding-top: 5px;
+    }
+
+    .txt-right {
+        width: 40px;
+        line-height: 40px;
+        text-align: right;
+        position: absolute;
+        right: 20px;
+        padding-top: 5px;
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+.theme1 {
+    background: transparent;
+    height: 50px;
+    line-height: 40px;
+    font-size: 16px;
+    overflow: hidden;
+
+    .txt-left {
+        line-height: 50px;
+    }
+
+    .txt-mid {
+        width: 100%;
+        text-align: left;
+        height: 40px;
+        line-height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .tHeader-mb-box {
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 50px;
+        z-index: -1;
+
+        .tHeader-img {
+            width: 100vw;
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 60vh;
+        }
+
+        .tHeader-mb {
+            width: 100vw;
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 60vh;
+            filter: blur(15px);
+        }
+    }
+}

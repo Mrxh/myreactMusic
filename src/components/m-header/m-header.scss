@@ -1,0 +1,33 @@
+.mHeader {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    background: #C20C0C;
+    padding: 5px 8px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+    .mHeader-item {
+        flex: 1;
+        line-height: 30px;
+        color: #fff;
+    }
+
+    .txt-left {
+        line-height: 40px;
+        text-align: left;
+    }
+
+    .txt-right {
+        line-height: 40px;
+        text-align: right;
+
+        a {
+            color: #fff;
+        }
+    }
+}

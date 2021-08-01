@@ -1,0 +1,26 @@
+.song-box-process {
+    flex: 1;
+    height: 4px;
+    background: #aaa;
+    margin: 6px 10px;
+    margin-bottom: 16px;
+    position: relative;
+
+    .song-box-value {
+        position: absolute;
+        width: 50%;
+        height: 4px;
+        background: #C20C0C;
+    }
+
+    .song-box-circle {
+        width: 10px;
+        height: 10px;
+        background: #C20C0C;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        right: -8px;
+        top: -6px;
+    }
+}

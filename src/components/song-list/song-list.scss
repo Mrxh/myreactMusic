@@ -1,0 +1,54 @@
+.playlist-song-list {
+    .playlist-song-item {
+        display: flex;
+
+        .playlist-song-num {
+            width: 15vw;
+            height: 55px;
+            text-align: center;
+            line-height: 55px;
+        }
+
+        .playlist-song-info {
+            padding: 8px 8px 10px 0;
+            border-bottom: 1px solid #ccc;
+            flex: 1;
+
+            h3 {
+                width: 80vw;
+                margin: 0 0 8px 0;
+                font-size: 16px;
+                text-align: left;
+                font-weight: normal;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            p {
+                width: 80vw;
+                margin: 0;
+                font-size: 12px;
+                color: #666;
+                text-align: left;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .playlist-song-item-active {
+        color: #C20C0C;
+
+        .playlist-song-info {
+            p {
+                color: #C20C0C;
+            }
+        }
+    }
+
+    .playlist-song-item:last-child .playlist-song-info {
+        border: none;
+    }
+}

@@ -1,0 +1,55 @@
+.music-list-box {
+    position: absolute;
+    bottom: -40vh;
+    left: 0;
+    right: 0;
+    height: 40vh;
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all 0.3s ease;
+
+    .music-list-title {
+        width: 100%;
+        text-align: left;
+        padding: 12px 20px;
+        border-bottom: 1px solid #aaa;
+    }
+
+    .music-list-list {
+        position: absolute;
+        top: 42px;
+        width: 100%;
+        bottom: 0;
+        overflow: auto;
+
+        .music-list-item {
+            display: flex;
+
+            .music-list-num {
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+            }
+
+            .music-list-content {
+                flex: 1;
+                min-width: 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                line-height: 40px;
+                text-align: left;
+            }
+        }
+
+        .music-list-item-active {
+            color: #C20C0C;
+        }
+    }
+}
+
+.music-list-box-show {
+    bottom: 0;
+}

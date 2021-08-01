@@ -1,0 +1,105 @@
+.playlist {
+    margin-top: 10px;
+
+    .playlist-box {
+        position: relative;
+        width: 100vw;
+        overflow: hidden;
+
+        .playlist-header-img {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            filter: blur(15px);
+        }
+
+        .playlist-header-content {
+            display: flex;
+            position: relative;
+            z-index: 10;
+            padding: 15px 20px;
+            box-sizing: border-box;
+
+            .playlist-con {
+                position: relative;
+
+                .playlist-con-img {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                .playlist-song-tips {
+                    position: absolute;
+                    top: 2px;
+                    right: 2px;
+                    color: #fff;
+                    font-size: 12px;
+
+                    img {
+                        width: 12px;
+                        vertical-align: middle;
+                        margin-right: 2px;
+                    }
+
+                    span {
+                        vertical-align: middle;
+                    }
+                }
+            }
+
+            .playlist-cont {
+                margin-left: 16px;
+                position: relative;
+
+                .playlist-con-name {
+                    width: 50vw;
+                    margin: 0;
+                    color: #fff;
+                    line-height: 24px;
+                    text-align: left;
+                    font-weight: 700;
+                    font-size: 16px;
+                    letter-spacing: 0;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    text-overflow: ellipsis;
+                    -webkit-line-clamp: 2;
+                    /*要显示的行数*/
+                    -webkit-box-orient: vertical;
+                }
+
+                .playlist-con-creator {
+                    margin: 0;
+                    padding: 0;
+                    position: absolute;
+                    left: 0;
+                    bottom: 16px;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        margin-right: 6px;
+                        vertical-align: middle;
+                    }
+
+                    span {
+                        display: inline-block;
+                        width: 40vw;
+                        text-align: left;
+                        font-size: 14px;
+                        color: #f0f0f0;
+                        vertical-align: middle;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}
